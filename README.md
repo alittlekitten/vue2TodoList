@@ -6,6 +6,12 @@
 
 <br />
 
+## 👉 배포 페이지
+
+[👉 바로가기](https://alittlekitten.github.io/vue2TodoList/)
+
+<br />
+
 ## 🔧 기술스택
 
 <div>
