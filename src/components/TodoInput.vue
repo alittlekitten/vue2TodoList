@@ -1,7 +1,13 @@
 <template>
-  <div>
-    <input type="text" v-model="newTodoItem" />
-    <button type="button" @click="addTodo">추가하기</button>
+  <div id="todo-input">
+    <input
+      placeholder="할 일을 입력해주세요!"
+      type="text"
+      v-model="newTodoItem"
+    />
+    <b-button pill variant="dark" size="lg" class="todo-add-btn" type="button" @click="addTodo"
+      >추가하기</b-button
+    >
   </div>
 </template>
 
@@ -23,3 +29,16 @@ export default {
   },
 };
 </script>
+
+<style lang="scss">
+#todo-input {
+  input {
+    margin: 1rem;
+    width: 300px;
+  }
+
+  .todo-add-btn {
+    font-size: 2rem;
+  }
+}
+</style>
