@@ -63,4 +63,21 @@ export default {
 };
 </script>
 
-<style></style>
+<style lang="scss">
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+#app {
+  font-family: "Dongle", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin-top: 100px;
+  background-color: $bg-color;
+  font-size: 2rem;
+}
+html,
+body {
+  background-color: $bg-color;
+  font-size: 16px;
+}
+</style>
