@@ -4,6 +4,7 @@
       placeholder="할 일을 입력해주세요!"
       type="text"
       v-model="newTodoItem"
+      @keyup.enter="addTodo"
     />
     <b-button pill variant="dark" size="lg" class="todo-add-btn" type="button" @click="addTodo"
       >추가하기</b-button
